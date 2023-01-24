@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head><title>Survey Form</title>
+<meta charset="UTF-8">
+<meta name="viewport" >
+<link rel="stylesheet" href="styles.css"> </link>
+  </head>
+  <body>
+    <center>
+   <div id="FSMonitor">
+     <center>
+     <div id="FS1">
+  <form  >    
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+
+    <div id="Spinner">
+        <img id="KillaMike2" src="https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Cool Programmer"/>
+        </div>
+     
+        <p id="description">Survey Form designed by the Code Master: KillaMike!</p> 
+        
+       
+        
+        </form>
+        </div>
+         
+        </div>
+
+        <div id= "Flasher">
+        <img id="KillaMike1" src="https://images.pexels.com/photos/1097456/pexels-photo-1097456.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Cool Programmer"/>
+        </div>
+        
+       
+        
+
+ <fieldset id= "Survey-Frame">
+   <form id ="survey-form">
+ <p id="Instructions">Survey Form</p>
+ <p id="guide" >Please Enter the information requested below.  The required fields are marked with an *.</p>
+
+
+<label class="survey-labels" id="name-label">*Please Enter Your Full Name *<input placeholder="Insert your name" required id="name" type="text"/></label>
+<label id="email-label" class="survey-labels">*Please Type Your Email In This Field*<input required id="email" placeholder="Insert your email" type="email"/></label>
+
+<label class="survey-labels" id="number-label">*Please Enter Your Age* (We won't tell anyone) <input class="survey-labels" 
+placeholder="Age" id="number" type="number" min= "13" max= "85">
+</label>
+<p>KillaMike values his Anonymity very much.  How did you hack into this Website?</p>
+  <center>
+  <select id="dropdown">
+    <option type="text">Choose One of the Following Options</option>
+  <option type="text" >Used a Repeating Booelean Algorithm</option>
+  <option type="text" >Brute Force E-bomb</option>
+  <option type="text" >Searched Him on Google</option>
+  </select>
+  </center>
+<p>How Long Have you Been Coding?</p>
+<p>0 to 1 year<input name="status" type="radio" value="1">
+<p>2 to 3 years<input name="status" type="radio" value="1">
+<p>3 to 4eva!!<input name="status" type="radio" value="1">
+<p>If you didn't have a computer to program on, how else would you use your time? Check all the boxes that may apply. </p>
+<center>
+<label> Fishing <input id="fishing" type="checkbox" value="fishing"></label>
+<label id="sports"> Rugby <input id="rugby" type="checkbox" value="rugby"></label>
+<label id="sports">Cycling<input id="cycling" type="checkbox"value="cycling"></label>
+<label id="Guitar">Guitar <input id="guitar" type="checkbox" value="guitar"></label>
+</center>
+<p>If you have any questions or comments, feel free to leave them here!</p>
+<center>
+<textarea rows=8 cols= 30 id="Comments" placeholder="Comments or Questions"></textarea>
+<p><input type="Submit" id="submit"></p>
+</center>
+
+
+</form>
+    </fieldset>
+  </body>
+  
+</html>
